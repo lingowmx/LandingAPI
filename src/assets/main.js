@@ -1,5 +1,5 @@
 const API =
-  "https://spotify23.p.rapidapi.com/artist_albums/?id=0L8ExT028jH3ddEcZwqJJ5&offset=1&limit=5";
+  "https://spotify23.p.rapidapi.com/artist_albums/?id=0L8ExT028jH3ddEcZwqJJ5&offset=1&limit=12";
 const content = null || document.getElementById('content')
 const options = {
   method: "GET",

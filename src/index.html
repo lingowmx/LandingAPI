@@ -13,19 +13,19 @@
         <div
           class="relative z-10 pb-8 bg-blue-950 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
         >
-          <svg
-            class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+          <!-- <svg
+            class="bg-pink-200 hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
             fill="currentColor"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <!-- <polygon points="50,0 100,0 50,100 0,100" /> -->
-          </svg>
+            <polygon points="50,0 100,0 50,100 0,100" />
+          </svg> -->
           <div>
             <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
               <nav
-                class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                class="relative flex items-center justify-between sm:h-10"
                 aria-label="Global"
               >
                 <div
@@ -45,20 +45,20 @@
                   </div>
                 </div>
                 <div
-                  class="hidden md:block md:ml-[100px] md:pr-4 md:space-x-8 text-[20px]"
+                  class="hidden md:block md:ml-[80px] md:pr-2 md:space-x-8 text-[20px]"
                 >
                   <a
-                    href="#"
+                    href="#theBand"
                     class="font-medium text-gray-500 hover:text-gray-900"
-                    >About</a
+                    >The Band</a
                   >
                   <a
-                    href="#"
+                    href="#projects"
                     class="font-medium text-gray-500 hover:text-gray-900"
                     >Projects</a
                   >
                   <a
-                    href="#"
+                    href="#contact"
                     class="font-medium text-gray-500 hover:text-gray-900"
                     >Contact</a
                   >
@@ -74,44 +74,69 @@
               <h1
                 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
               >
-                <span class="block xl:inline">Caleb Lingow</span>
-                <span class="block text-indigo-600 xl:inline">@lingowmx</span>
+                <span class="block xl:inline">RedHotChilliPeppers🌶️</span>
+                <span class="block text-indigo-600 xl:inline"
+                  >@ChiliPeppers</span
+                >
               </h1>
               <p
                 class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
-                Descripcion acerca del desarrollador. Lugar de nacimiento, a;os
-                de experiencia, 😎🇲🇽 Wiri wiri wiri wiri
+                RHCP Los Red Hot Chili Peppers son conocidos por su fusión única
+                de funk, punk rock y rock alternativo. Su estilo musical también
+                ha incorporado elementos de pop, hard rock y hasta música
+                psicodélica en diferentes etapas de su carrera. La banda fue
+                formada en 1983, por lo que cuenta con más de cuatro décadas de
+                trayectoria en la escena musical. Una de sus canciones mas
+                famosas es "Under the bridge" Actualmente se encuentran de gira
+                con el nuevo tour "Return of the Dream Cantine"
               </p>
             </div>
           </main>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
+      <div class="lg:absolute lg:inset-y-0 lg:right-3 lg:w-1/3">
         <img
-          class="h-56 w-full object-cover rounded-bl-[40px] sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="./assets/LeengowMobileLogo.png"
+          class="h-56 w-full object-contain mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src="./assets/red-hot-chili-peppers-logo-A543BC87F8-seeklogo.com.png"
           alt=""
         />
       </div>
     </div>
-    <div class="bg-blue-950">
+    <!-- LA BANDA -->
+    <div id="theBand" class="bg-blue-950 w-full">
+      <h2
+        class="text-2xl font-extrabold tracking-tight text-gray-900 px-4 lg:px-8"
+      >
+        The Band - RHCP
+      </h2>
+      <div class="mt-6">
+        <img
+          src="./assets/Captura de pantalla 2023-12-14 a la(s) 16.49.47.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- PROJECTS -->
+    <div id="projects" class="bg-blue-950">
       <div
         class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
       >
         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">
-          Last YouTube Videos
+          Last Albums
         </h2>
         <div
-          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8"
+          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8"
           id="content"
         >
           <!-- content -->
         </div>
       </div>
     </div>
+    <!-- CONTACT -->
     <div class="bg-blue-950">
       <div
+        id="contact"
         class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
       >
         <h2
@@ -121,135 +146,143 @@
           <span class="block text-indigo-600">keep in touch.</span>
         </h2>
         <div class="mt=8 flex justify-around lg:mt-0 lg:flex-shrink-0">
-          <svg
-            fill="#000000"
-            width="48px"
-            height="48px"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"
-            />
-          </svg>
-          <svg
-            width="48px"
-            height="48px"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="24" height="24" fill="none" />
-            <path
-              d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z"
-            />
-          </svg>
-          <svg
-            width="48px"
-            height="48px"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              x="2"
-              y="2"
-              width="28"
-              height="28"
-              rx="6"
-              fill="url(#paint0_radial_87_7153)"
-            />
-            <rect
-              x="2"
-              y="2"
-              width="28"
-              height="28"
-              rx="6"
-              fill="url(#paint1_radial_87_7153)"
-            />
-            <rect
-              x="2"
-              y="2"
-              width="28"
-              height="28"
-              rx="6"
-              fill="url(#paint2_radial_87_7153)"
-            />
-            <path
-              d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z"
-              fill="white"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z"
-              fill="white"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z"
-              fill="white"
-            />
-            <defs>
-              <radialGradient
-                id="paint0_radial_87_7153"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"
-              >
-                <stop stop-color="#B13589" />
-                <stop offset="0.79309" stop-color="#C62F94" />
-                <stop offset="1" stop-color="#8A3AC8" />
-              </radialGradient>
-              <radialGradient
-                id="paint1_radial_87_7153"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"
-              >
-                <stop stop-color="#E0E8B7" />
-                <stop offset="0.444662" stop-color="#FB8A2E" />
-                <stop offset="0.71474" stop-color="#E2425C" />
-                <stop offset="1" stop-color="#E2425C" stop-opacity="0" />
-              </radialGradient>
-              <radialGradient
-                id="paint2_radial_87_7153"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"
-              >
-                <stop offset="0.156701" stop-color="#406ADC" />
-                <stop offset="0.467799" stop-color="#6A45BE" />
-                <stop offset="1" stop-color="#6A45BE" stop-opacity="0" />
-              </radialGradient>
-            </defs>
-          </svg>
-          <svg
-            fill="#000000"
-            height="48px"
-            width="48px"
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="-143 145 512 512"
-            xml:space="preserve"
-          >
-            <path
-              d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
-	            c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
-                c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
-                C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
-                c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
-                c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"
-            />
-          </svg>
+          <a href="https://www.facebook.com/ChiliPeppers/">
+            <svg
+              fill="#000000"
+              width="48px"
+              height="48px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"
+              />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/chilipeppers/">
+            <svg
+              width="48px"
+              height="48px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="24" height="24" fill="none" />
+              <path
+                d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z"
+              />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/chilipeppers/">
+            <svg
+              width="48px"
+              height="48px"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="2"
+                y="2"
+                width="28"
+                height="28"
+                rx="6"
+                fill="url(#paint0_radial_87_7153)"
+              />
+              <rect
+                x="2"
+                y="2"
+                width="28"
+                height="28"
+                rx="6"
+                fill="url(#paint1_radial_87_7153)"
+              />
+              <rect
+                x="2"
+                y="2"
+                width="28"
+                height="28"
+                rx="6"
+                fill="url(#paint2_radial_87_7153)"
+              />
+              <path
+                d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z"
+                fill="white"
+              />
+              <defs>
+                <radialGradient
+                  id="paint0_radial_87_7153"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"
+                >
+                  <stop stop-color="#B13589" />
+                  <stop offset="0.79309" stop-color="#C62F94" />
+                  <stop offset="1" stop-color="#8A3AC8" />
+                </radialGradient>
+                <radialGradient
+                  id="paint1_radial_87_7153"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"
+                >
+                  <stop stop-color="#E0E8B7" />
+                  <stop offset="0.444662" stop-color="#FB8A2E" />
+                  <stop offset="0.71474" stop-color="#E2425C" />
+                  <stop offset="1" stop-color="#E2425C" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient
+                  id="paint2_radial_87_7153"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"
+                >
+                  <stop offset="0.156701" stop-color="#406ADC" />
+                  <stop offset="0.467799" stop-color="#6A45BE" />
+                  <stop offset="1" stop-color="#6A45BE" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </a>
+          <a href="https://twitter.com/chilipeppers">
+            <svg
+              fill="#000000"
+              height="48px"
+              width="48px"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="-143 145 512 512"
+              xml:space="preserve"
+            >
+              <path
+                d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
+              c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
+              c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
+              C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
+              c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
+              c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"
+              />
+            </svg>
+          </a>
         </div>
         <!-- <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
         
@@ -281,5 +314,11 @@
       </div> -->
       </div>
     </div>
+    <button
+      id="toTopButton"
+      class="rounded-full w-[50px] h-[50px] bg-white fixed bottom-5 right-4 pointer"
+    >
+      ⬆️
+    </button>
   </body>
 </html>

@@ -24,10 +24,20 @@ window.addEventListener("scroll", function(){
 scrolltoTop.addEventListener("click", function(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0
+});
+
+document.addEventListener('DOMContentLoaded', function(){
+    const menuHamburguesa = document.getElementById('Menu');
+    const navegador = document.getElementById('navigator');
+
+    menuHamburguesa.addEventListener("click", function(){
+        console.log("clocl")
+        navegador.classList.toggle('show');
+    });
 })
 
 const API =
-  "https://spotify23.p.rapidapi.com/artist_albums/?id=0L8ExT028jH3ddEcZwqJJ5&offset=1&limit=12";
+  "https://spotify23.p.rapidapi.com/artist_albums/?id=0L8ExT028jH3ddEcZwqJJ5&offset=1&limit=7";
 const content = null || document.getElementById('content')
 const options = {
   method: "GET",
